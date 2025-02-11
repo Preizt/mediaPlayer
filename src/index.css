@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  
+ 
+}
+
+#navbar{
+  
+/* background: linear-gradient(to right, #1d60be, #00d2ff); */
+font-weight: 600;
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+
+
+}
+
+
+
+#cards:hover{
+  background-color: #2a9fd6;
+  color: black;
+  transform: scale(1.08);
+  transition: 0.8s ease;
+  cursor: pointer;
+}
+
+#footer{
+  
+  /* background: linear-gradient(to right, #1d60be, #00d2ff); */
+  font-weight: 600;
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+ 
+  }
+
+#footer input{
+  outline: none;
+  border: none;
+
+}
+
+
+  .card img{
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+  }
+
