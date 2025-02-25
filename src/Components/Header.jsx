@@ -13,7 +13,6 @@ const Header = () => {
             Media Player
           </Navbar.Brand>
           </Link>
-         
         </Container>
       </Navbar>
     </div>
